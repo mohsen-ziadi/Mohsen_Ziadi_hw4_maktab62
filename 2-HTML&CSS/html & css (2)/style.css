@@ -1,0 +1,65 @@
+body{
+
+}
+.container{
+	width: 700px;
+	margin: 0 auto;
+	background: #444;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+.yellow{
+	background: yellow;
+}
+.gray{
+	background: #eee;
+}
+
+.box1{
+	width: 440px;
+	height: 600px;
+	float: right;
+}
+.box2,.box3{
+	width: 250px;
+	height: 286px;
+	margin-right: 460px;
+}
+.box3{
+	margin-top: 28px;
+}
+
+.bottomContainer{
+	margin-top: 10px;
+	overflow: hidden;
+	
+}
+
+.box4{
+	width: 250px;
+	height: 240px;
+	float: left;
+}
+.box5{
+	width: 360px;
+	height: 240px;
+	float: left;
+	margin-left: 10px;
+}
+.box6{
+	margin-bottom: 20px
+}
+.box6 , .box7{
+	width: 60px;
+	height: 110px;
+	float: left;
+	margin-left:20px;
+}

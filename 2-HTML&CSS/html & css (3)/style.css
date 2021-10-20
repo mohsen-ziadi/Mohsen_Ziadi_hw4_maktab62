@@ -1,0 +1,65 @@
+*{
+	font-family: arial;
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+.header{
+	width: 1200px;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	background: rgb(60,138,228);
+	padding: 30px 0px 50px;
+	margin-bottom: 20px;
+}
+
+
+.tree{
+	text-align: center;
+	display: inline-block;
+	width: 321px;
+	margin-right: 24px;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+}
+
+.tree h5{
+	font-size: 16px;
+}
+
+.four{
+	display: inline-block;
+	margin-right:  20px;
+	padding: 40px 50px 70px;
+	width: 180px;
+	text-align: center;
+
+}
+.four span{
+
+	color: #fff;
+	font-size: 18px;
+}
+
+
+.last{
+	margin-right:0;
+}
+
+.gray{
+	background: #eee;
+}
+.blue{
+	background: rgb(60,138,228);
+}
+.green{
+	background: rgb(231,187,93);
+}
+.yellow{
+	background: rgb(93,231,190);
+}
+.red{
+	background: rgb(231,93,127);
+}

@@ -1,0 +1,16 @@
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+	background: aqua;
+	overflow: hidden;
+}
+.img{
+	float: right;
+	margin-right: 40px;
+}
+.par{
+	margin-top: 0;
+	margin-bottom: 140px;
+	color: #04043e;
+}
