@@ -1,13 +1,19 @@
-function Depth(array) {
-    if (Array.isArray(array)) {
-        let values = []
-        for (let index of array) {
-            values.push(Depth(index))
+let arr = [[1,12,3,[4,[5,[10,[2],45,[7,2,[23],"mo"]]],6],7],8]
+let depth = 0
+
+function getArrayDepth(array){
+    if(Array.isArray(array)){
+        ++depth
+        for(let i=0;i<array.length;i++){
+            if(Array.isArray(array[i])) {
+                arr = arr.flat()
+                getArrayDepth(arr)  
+            }
         }
-        return 1 + Math.max(...values)
-    } else {
-        return 0
+        return ` depth = ${depth}`
     }
+    return console.log(`NOT Araay`)
 }
 
-console.log(Depth([10, [25, 13], [14, [55]], 2]))
+console.log(getArrayDepth(arr))
+
